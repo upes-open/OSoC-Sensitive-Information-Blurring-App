@@ -20,7 +20,7 @@ The web app will utilize image processing techniques, Optical Character Recognit
 
 ### Tech Stack
 
-![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26)    ![Static Badge](https://img.shields.io/badge/Docker-101010?logo=docker&logoColor=%232496ED)    ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB)    ![Static Badge](https://img.shields.io/badge/Django-FFFFFF?logo=django&logoColor=%23092E20)    ![Static Badge](https://img.shields.io/badge/Firebase-101010?logo=firebase&logoColor=%23FFCA28)    ![Static Badge](https://img.shields.io/badge/PostgreSQL-F4F4F4?logo=postgresql&logoColor=%234169E1)
+![Static Badge](https://img.shields.io/badge/NodeJS-101010?logo=nodedotjs&logoColor=%23339933)    ![Static Badge](https://img.shields.io/badge/MongoDB-101010?logo=mongodb&logoColor=%2347A248)    ![Static Badge](https://img.shields.io/badge/ReactJS-101010?logo=react&logoColor=%2361DAFB)    ![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26)    ![Static Badge](https://img.shields.io/badge/JavaScript-101010?logo=javascript&logoColor=%23F7DF1E)    ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB)    ![Static Badge](https://img.shields.io/badge/Firebase-101010?logo=firebase&logoColor=%23FFCA28)    ![Static Badge](https://img.shields.io/badge/OpenCV-101010?logo=opencv&logoColor=%235C3EE8)    ![Static Badge](https://img.shields.io/badge/TensorFlow-101010?logo=tensorflow&logoColor=%23FF6F00)
 
 
 
