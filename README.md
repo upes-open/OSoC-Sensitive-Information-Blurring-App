@@ -8,7 +8,10 @@
 
 
 
-![GitHub contributors](https://img.shields.io/github/contributors/upes-open/https%3A%2F%2Fgithub.com%2Fupes-open%2FOSoC-Sensitive-Information-Blurring-App) ![GitHub forks](https://img.shields.io/github/forks/upes-open/https%3A%2F%2Fgithub.com%2Fupes-open%2FOSoC-Sensitive-Information-Blurring-App) ![GitHub Repo stars](https://img.shields.io/github/stars/upes-open/https%3A%2F%2Fgithub.com%2Fupes-open%2FOSoC-Sensitive-Information-Blurring-App) ![GitHub issues](https://img.shields.io/github/issues/upes-open/https%3A%2F%2Fgithub.com%2Fupes-open%2FOSoC-Sensitive-Information-Blurring-App)
+![GitHub contributors](https://img.shields.io/github/contributors/upes-open/OSoC-Sensitive-Information-Blurring-App.git)
+![GitHub forks](https://img.shields.io/github/forks/upes-open/OSoC-Sensitive-Information-Blurring-App)
+![GitHub Repo stars](https://img.shields.io/github/stars/upes-open/OSoC-Sensitive-Information-Blurring-App)
+![GitHub issues](https://img.shields.io/github/issues/upes-open/OSoC-Sensitive-Information-Blurring-App)
 
 </div>
 
