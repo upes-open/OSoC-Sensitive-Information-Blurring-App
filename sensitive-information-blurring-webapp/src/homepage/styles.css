@@ -1,0 +1,127 @@
+/* default browser styles-reset */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.landing-page-header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.header-content {
+  margin-left: 10px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.left-content h1 {
+  font-size: 38px;
+  color: #003366;
+}
+
+.left-content p {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #416992;
+  font-weight: bold;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #93b4d9;
+  color: black;
+}
+.hero-content img{
+  width:350px;
+  height: auto;
+}
+
+.left-content img{
+  width: 350px;
+  height: auto;
+  background-color: none;
+}
+/* Feature sections */
+.feature-section {
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.feature-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.feature-content {
+  flex: 1;
+  max-width: 500px;
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.right-content {
+  flex: 1;
+  text-align: center;
+  margin-left: 250px;
+}
+.right-content img {
+  width: 350px;
+  height: auto;
+  background-color: none;
+}
+.feature-section.alternate .feature-content {
+  margin-right: 250px; 
+  margin-left: 50px; 
+  font-size: 20px;
+}
+
+/* Get Started section */
+.get-started-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #3e80c3;
+  color: white;
+}
+.get-started-section p{
+  margin-top:20px;
+  font-size: 18px; 
+}
+.feature-cnt{
+  margin-left: 100px;
+}
+
