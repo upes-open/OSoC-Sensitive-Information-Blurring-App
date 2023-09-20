@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700&display=swap');
+
+:root {
+  --body-bg: rgba(210, 219, 229, 1);
+  ;
+  --txt-color: black;
+  --light-txt-color: #76787F;
+  --box-bg: #D9D9D9;
+  --upload-bg: #266FA4;
+  --upload-txt-color: white;
+  --footer-bg: #AEC1C9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: var(--body-bg);
+  color: var(--txt-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.contentBox {
+  width: 500px;
+  height: 350px;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+.headerBox {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.iconsBox {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border: none;
+  margin: 0 8px;
+}
+
+.iconlink {
+  border: none;
+}
+
+.iconImg {
+  width: 50px;
+  height: 50px;
+}
+
+.uploadBox {
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadText {
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-size: smaller;
+}
