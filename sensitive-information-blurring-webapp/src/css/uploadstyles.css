@@ -22,31 +22,43 @@ body {
   color: var(--txt-color);
 }
 
-.content {
+.content-wrapper {
+  width: 100%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
 }
 
 .contentBox {
-  width: 500px;
-  height: 350px;
-  border-radius: 40px;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .contentBox {
+    width: 80%;
+  }
+}
+
+.content {
+  width: 100%;
+  height: fit-content;
   background-color: white;
   color: black;
+  border-radius: 40px;
 }
 
 .headerBox {
-  height: 25%;
+  height: 30%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .iconsBox {
-  height: 30%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -70,13 +82,14 @@ body {
 }
 
 .uploadBox {
-  height: 45%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .uploadContent {
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
