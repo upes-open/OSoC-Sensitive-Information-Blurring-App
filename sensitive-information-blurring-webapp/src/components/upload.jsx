@@ -1,5 +1,8 @@
+import React from 'react';
+
 import DropFileInput from './dropfileinput';
 import NavBar from './navbar';
+import Footer from './footer';
 
 import '../css/uploadstyles.css';
 
@@ -32,6 +35,8 @@ function Upload() {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     );
 }

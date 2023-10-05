@@ -7,7 +7,7 @@ import '../css/navbarstyles.css';
 function NavBar(props) {
     return (
         <>
-            <Navbar collapseOnSelect expand="md" className='navbar' fixed='top'>
+            <Navbar collapseOnSelect expand="md" className='navbar' fixed='top' sticky='top'>
                 <Container>
                     <Navbar.Brand href="" className='navTitle'>{props.title}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
