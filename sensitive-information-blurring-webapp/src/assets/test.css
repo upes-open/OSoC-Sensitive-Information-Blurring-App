@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-body {
+.content-wrapper{
     font-family: "Montserrat", sans-serif;
     background-color: var(--body-bg);
     color: var(--txt-color);
