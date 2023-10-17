@@ -12,7 +12,7 @@ import {
 } from "@clerk/clerk-react";
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 
-const clerkPubKey = "";
+const clerkPubKey = "pk_test_aW1tZW5zZS1jb3lvdGUtMzcuY2xlcmsuYWNjb3VudHMuZGV2JA";
 
 const SignInPage = () => {
   return (
