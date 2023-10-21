@@ -1,10 +1,10 @@
 import React from 'react';
 
 import DropFileInput from './dropfileinput';
-import Navbar from './Navbar';
+import NavBar from './navbar';
+import Footer from './footer';
 
-import '../assets/test.css';
-import Footer from './Footer';
+import '../css/uploadstyles.css';
 
 function Upload() {
 
@@ -14,8 +14,8 @@ function Upload() {
 
     return (
         <>
-            
-            <Navbar/>
+            <NavBar title="Sensitive Info Blurring"/>
+
             <div className='content-wrapper'>
                 <div className="contentBox">
                     <div className='content py-4'>
@@ -35,9 +35,8 @@ function Upload() {
                     </div>
                 </div>
             </div>
-            <Footer/>
 
-            
+            <Footer />
         </>
     );
 }
