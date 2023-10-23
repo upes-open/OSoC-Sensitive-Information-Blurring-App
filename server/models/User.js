@@ -1,21 +1,11 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  password: {
-    type: String,
-    required: function () {
-      return !this.googleId; // Required only if local strategy is used
-    },
-  },
-  googleId: {
-    type: String,
-    sparse: true, // Make the field optional (multiple documents can have a null value)
-  },
+  user_id: { type: Number, required: true, unique: true },
+  username: { type: String, required: true },
+  email: { type: String, required: true },
+  password: { type: String, required: true },
+  registration_date: { type: Date, default: Date.now },
 });
 
 const User = mongoose.model('User', userSchema);
