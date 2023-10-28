@@ -23,7 +23,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
     padding-top: 100px;
 }
 

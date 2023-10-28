@@ -1,11 +1,11 @@
 import React from 'react'
 
-import NavBar from './navbar'
+import Navbar from './Navbar'
 
 export default function Privacy() {
   return (
     <>
-        <NavBar title="Privacy Policy"/>
+        <Navbar title="Privacy Policy"/>
     </>
   )
 }
