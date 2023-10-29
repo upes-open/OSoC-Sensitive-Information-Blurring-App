@@ -64,7 +64,5 @@ git checkout -b <GitHub_usename>
 
 # Happy Contributing!
 
-```
- 
-```
+
 
