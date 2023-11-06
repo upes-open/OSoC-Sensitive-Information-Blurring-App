@@ -3,10 +3,15 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useClerk, useUser } from '@clerk/clerk-react';
 import { useLocation } from 'react-router-dom';
+
+import '../css/navbar.css'
+
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Dashboard', href: '/dashboard', current: false },
   { name: 'Upload', href: '/upload', current: false },
+  { name: 'FAQ', href: '/faq', current: false },
+  { name: 'Privacy Policy', href: '/privacy', current: false }
 ]
 
 function classNames(...classes) {
@@ -16,7 +21,6 @@ function classNames(...classes) {
 export default function Navbar() {
   const { signOut } = useClerk();
   const { user } = useUser();
-  console.log(user)
   const location = useLocation();
   const updatedNavigation = navigation.map(item => {
     if (location.pathname === item.href) {

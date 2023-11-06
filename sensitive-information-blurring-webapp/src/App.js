@@ -1,6 +1,10 @@
 import React from 'react';
 import Upload from './components/upload';
 import Home from './components/home';
+import Faq from './components/faq';
+import Privacy from './components/privacy';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   ClerkProvider,
@@ -71,6 +75,22 @@ function ClerkProviderWithRoutes() {
               <SignedOut>
                 <RedirectToSignIn />
               </SignedOut>
+            </>
+          }
+        />
+        <Route
+          path="/faq"
+          element={
+            <>
+                <Faq />
+            </>
+          }
+        />
+        <Route
+          path="/privacy"
+          element={
+            <>
+                <Privacy />
             </>
           }
         />

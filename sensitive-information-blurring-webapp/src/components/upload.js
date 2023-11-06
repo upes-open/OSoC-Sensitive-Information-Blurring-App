@@ -3,7 +3,7 @@ import React from 'react';
 import DropFileInput from './dropfileinput';
 import Navbar from './Navbar';
 
-import '../assets/test.css';
+import '../assets/upload.css';
 import Footer from './Footer';
 
 function Upload() {
@@ -14,16 +14,15 @@ function Upload() {
 
     return (
         <>
-            
             <Navbar/>
-            <div className='content-wrapper'>
-                <div className="contentBox">
-                    <div className='content py-4'>
+            <div className='upload-wrapper'>
+                <div className="uploadBox">
+                    <div className='upload py-4'>
                         <div className='headerBox text-center'>
                             <h4 className='headerContent'>SELECT YOUR FILES</h4>
                         </div>
                         <div className='uploadBox'>
-                            <div className='uploadContent'>
+                            <div className='uploadContent d-flex flex-col justify-content-center align-items-center'>
                                 <DropFileInput
                                     onFileChange={(files) => onFileChange(files)}
                                 />
@@ -36,8 +35,6 @@ function Upload() {
                 </div>
             </div>
             <Footer/>
-
-            
         </>
     );
 }

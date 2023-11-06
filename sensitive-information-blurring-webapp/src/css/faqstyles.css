@@ -1,4 +1,4 @@
-.faqBox {
+.splitBox {
     width: 100%;
     min-height: 500px;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.faq {
+.split {
     width: 90%;
     height: 80%;
     display: flex;
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.faqBox img {
+.splitBox img {
     border-radius: 40px;
     width: 100%;
 }
@@ -26,6 +26,6 @@
     color: white;
 }
 
-.faqimage {
+.splitimage {
     min-width: 100px;
 }
