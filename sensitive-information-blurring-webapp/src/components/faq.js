@@ -1,27 +1,26 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 
-import NavBar from './navbar'
-import Footer from './footer'
 import faqImg from '../assets/faqImg.png'
 
+import Navbar from './Navbar';
+import Footer from './Footer';
 import '../css/faqstyles.css'
 
 export default function Faq() {
     return (
         <>
-            <NavBar title="Frequently Asked Questions" />
-
-            <div className='faqBox my-5'>
-                <div className='faq row'>
-                    <div className="col col-12 col-md-4 faqimage">
+            <Navbar />
+            <div className='splitBox my-5'>
+                <div className='split row'>
+                    <div className="col col-12 col-md-4 splitimage">
                         <div className='imgBox'>
                             <div className="img">
                                 <img src={faqImg} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col col-12 col-md-8 faqtext">
+                    <div className="col col-12 col-md-8 splittext">
                         <div className='faqContent m-5'>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
@@ -74,9 +73,7 @@ export default function Faq() {
                     </div>
                 </div>
             </div>
-
             <Footer />
-
         </>
     );
 }

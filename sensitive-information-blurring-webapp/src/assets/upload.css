@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+.upload-wrapper {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--body-bg);
+  color: var(--txt-color);
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: fit-content;
+}
+
+#upload {
+  all: unset;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  color: #f0f0f0;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #28282d;
+}
